@@ -30,7 +30,7 @@ setup(
     description='Swagger UI for Django REST Framework 2.3+',
     long_description=README,
     install_requires=[
-        'django>=1.5',
+        'django>=1.5,<1.7',
         'djangorestframework>=2.3.5',
     ],
 
